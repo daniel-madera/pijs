@@ -1,0 +1,11 @@
+.test-editor .select-module {
+    width: 50%;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.test-editor .list-group-item.active,
+.test-editor .list-group-item.active:hover,
+.test-editor .list-group-item.active:focus {
+    font-weight: bold;
+}

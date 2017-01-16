@@ -1,0 +1,161 @@
+ @import url("https://fonts.googleapis.com/css?family=Raleway");
+ tr.bold > td {
+     font-weight: bold;
+ }
+ 
+ a:not([onClick=""]) {
+     cursor: pointer;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ .h1,
+ .h2,
+ .h3,
+ .h4,
+ .h5,
+ .h6 {
+     font-family: 'Raleway', sans-serif;
+ }
+ /* .has-warning .form-control {
+     background-color: #FFFFF2;
+     border-color: #FFFF5C;
+ }*/
+ 
+ .has-error .form-control {
+     background-color: #FEF6F4;
+ }
+ 
+ .has-success .form-control {
+     background-color: #ECF7F0;
+ }
+ 
+ .inline {
+     display: inline-block;
+ }
+ 
+ .indent-left-small {
+     margin-left: 3px;
+ }
+ 
+ .indent {
+     margin-top: 20px;
+ }
+ 
+ .table > thead > tr > th,
+ .table > tbody > tr > th,
+ .table > tfoot > tr > th,
+ .table > thead > tr > td,
+ .table > tbody > tr > td,
+ .table > tfoot > tr > td {
+     vertical-align: middle;
+ }
+ 
+ .full-width {
+     width: 100%;
+ }
+ 
+ .form-inline .full-width .form-control {
+     width: 100%;
+ }
+ 
+ .navbar-text a {
+     cursor: pointer;
+ }
+ 
+ .navbar-text a,
+ .navbar-text span {
+     color: white;
+     font-weight: bold;
+     display: inline-block;
+ }
+ 
+ .navbar-text a:hover {
+     text-decoration: none;
+ }
+ 
+ .control-label {
+     font-size: 15px;
+     margin-right: 10px;
+ }
+ 
+ .pointer:hover {
+     cursor: pointer;
+ }
+ 
+ .glyph-text {
+     margin: 0 10px 0 10px;
+ }
+ 
+ .list-group-item.active,
+ .list-group-item.active:hover,
+ .list-group-item.active:focus {
+     border-color: #dddddd;
+ }
+ 
+ .half-width {
+     width: 50%;
+ }
+ 
+ .column-split {
+     width: 50%;
+     float: left;
+     padding: 0 10px 0 10px;
+ }
+ 
+ .modal-large .modal-dialog {
+     width: 800px;
+ }
+ 
+ .modal-large .modal-dialog .modal-body .list-group {
+     max-height: 60vh;
+     overflow-y: auto;
+ }
+ 
+ .column-split .form-group {
+     margin-bottom: 10px;
+ }
+ 
+ .clean-list {
+     list-style-type: none;
+ }
+ 
+ .loading-indicator {
+     background-color: rgba(0, 0, 0, 0.3);
+     z-index: 10000;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+ }
+ 
+ .loading-indicator > svg {
+     display: block;
+     margin: 0px auto;
+     margin-top: 30vh;
+ }
+ 
+ .tooltip-control {
+     position: relative;
+ }
+ 
+ .tooltip-text {
+     visibility: hidden;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: #fff;
+     text-align: center;
+     padding: 5px 7px;
+     margin-top: -40px;
+     position: absolute;
+     z-index: 10;
+     font-size: 13px;
+ }
+ 
+ .tooltip-control:hover .tooltip-text {
+     visibility: visible;
+ }

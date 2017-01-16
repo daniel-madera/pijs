@@ -1,0 +1,24 @@
+.show-hint {
+    margin-bottom: 5px;
+}
+
+.hints .alert.alert-info {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.questioner .picture {
+    float: left;
+    width: 40%;
+}
+
+.questioner .content {
+    float: left;
+    width: 60%;
+    padding-right: 30px;
+}
+
+.questioner .answer-block {
+    width: 50%;
+    display: inline-block;
+}

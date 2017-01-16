@@ -1,0 +1,83 @@
+ form.tiny input,
+ form.tiny button:not(.close),
+ form.tiny select {
+     height: 33px;
+     padding: 4px 8px;
+ }
+ 
+ form.tiny button.icon {
+     width: 33px;
+ }
+ 
+ form.tiny > span {
+     padding-left: 5px;
+     display: inline-block;
+     font-size: 12px;
+     font-weight: bold;
+ }
+ 
+ form.tiny .title > * {
+     width: 130px;
+ }
+ 
+ form.tiny .partOfSpeech > * {
+     width: 90px;
+ }
+ 
+ form.tiny .difficulty > * {
+     width: 120px;
+ }
+ 
+ form.tiny .text {
+     width: 50%;
+ }
+ 
+ form.tiny .picture > img {
+     max-height: 33px;
+ }
+ 
+ form.tiny .link {
+     width: 100%;
+     margin-bottom: 10px;
+ }
+ 
+ form.tiny .item > div.form-group:not(:first-child) {
+     margin-left: 8px;
+ }
+ 
+ form.tiny .form-group > input {
+     width: 100%;
+ }
+ 
+ div.vertical-space-small {
+     width: 100%;
+     height: 10px;
+ }
+ 
+ div.separator {
+     border-top: 1px solid #dddddd;
+ }
+ 
+ form.tiny div.item {
+     padding: 10px 5px 10px 5px;
+ }
+ 
+ form.tiny div.item:nth-of-type(even) {
+     background-color: #D9D9D9;
+ }
+ 
+ form.tiny div.item:nth-of-type(odd) {
+     background: #E9E9E9;
+ }
+ 
+ div.description .form-control {
+     margin-top: 8px;
+ }
+ 
+ div.description > .form-group:nth-of-type(even) {
+     padding-left: 8px;
+ }
+ 
+ .modal-image {
+     margin: 10px;
+ }
